@@ -1,16 +1,8 @@
-﻿  compilation header save succeeded; see D:\c++game programming tutorial\Chili Framework 2016\Engine\FramebufferPS.shh
-  compilation header save succeeded; see D:\c++game programming tutorial\Chili Framework 2016\Engine\FramebufferVS.shh
-  DXErr.cpp
-  Game.cpp
-  Graphics.cpp
-  Keyboard.cpp
-  Main.cpp
-  MainWindow.cpp
-  Mouse.cpp
+﻿  Game.cpp
   코드를 생성하고 있습니다.
-  624 of 625 functions (99.8%) were compiled, the rest were copied from previous compilation.
-    2 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  1 of 628 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
   코드를 생성했습니다.
   Engine.vcxproj -> D:\c++game programming tutorial\Chili Framework 2016\Release\Engine.exe
   Engine.vcxproj -> D:\c++game programming tutorial\Chili Framework 2016\Release\Engine.pdb (Full PDB)

@@ -42,5 +42,44 @@ void Game::UpdateModel()
 
 void Game::ComposeFrame()
 {
-	gfx.PutPixel(100, 100, 255, 255, 255);
+	const int dx = 400;
+	const int dy = 300;
+
+	//const bool cond = wnd.kbd.KeyIsPressed(VK_UP);
+
+	if (wnd.kbd.KeyIsPressed(VK_UP))
+	{
+		if (wnd.kbd.KeyIsPressed(VK_DOWN))
+		{
+			gfx.PutPixel(-5 + dx, dy, 255, 255, 255);
+			gfx.PutPixel(-4 + dx, dy, 255, 255, 255);
+			gfx.PutPixel(-3 + dx, dy, 255, 255, 255);
+			gfx.PutPixel(3 + dx, dy, 255, 255, 255);
+			gfx.PutPixel(4 + dx, dy, 255, 255, 255);
+			gfx.PutPixel(5 + dx, dy, 255, 255, 255);
+			gfx.PutPixel(dx, -5 + dy, 255, 255, 255);
+			gfx.PutPixel(dx, -4 + dy, 255, 255, 255);
+			gfx.PutPixel(dx, -3 + dy, 255, 255, 255);
+			gfx.PutPixel(dx, 3 + dy, 255, 255, 255);
+			gfx.PutPixel(dx, 4 + dy, 255, 255, 255);
+			gfx.PutPixel(dx, 5 + dy, 255, 255, 255);
+		}
+	}
+	else if( wnd.kbd.KeyIsPressed(VK_DOWN))
+	{
+
+		gfx.PutPixel(-5 + dx, dy, 255, 255, 255);
+		gfx.PutPixel(-4 + dx, dy, 255, 255, 255);
+		gfx.PutPixel(-3 + dx, dy, 255, 255, 255);
+		gfx.PutPixel(3 + dx, dy, 255, 255, 255);
+		gfx.PutPixel(4 + dx, dy, 255, 255, 255);
+		gfx.PutPixel(5 + dx, dy, 255, 255, 255);
+		gfx.PutPixel(dx, -5 + dy, 255, 255, 255);
+		gfx.PutPixel(dx, -4 + dy, 255, 255, 255);
+		gfx.PutPixel(dx, -3 + dy, 255, 255, 255);
+		gfx.PutPixel(dx, 3 + dy, 255, 255, 255);
+		gfx.PutPixel(dx, 4 + dy, 255, 255, 255);
+		gfx.PutPixel(dx, 5 + dy, 255, 255, 255);
+	}
+
 }
